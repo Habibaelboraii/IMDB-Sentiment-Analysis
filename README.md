@@ -1,33 +1,57 @@
-# IMDB Sentiment Analysis using NLP and Machine Learning
+# IMDB Sentiment Analysis 
 
-## Overview
-This project performs sentiment analysis on 50,000 IMDB movie reviews using Natural Language Processing (NLP) and Machine Learning techniques.
+## Project Overview
+
+This project implements a complete Natural Language Processing (NLP) pipeline for sentiment analysis on the IMDB Movie Reviews Dataset (50,000 reviews).
+
+The system performs advanced text preprocessing, custom negation handling, feature extraction using TF-IDF, and comparison of multiple machine learning algorithms for binary sentiment classification.
 
 ## Features
-- Text preprocessing and cleaning
-- Negation handling
-- TF-IDF vectorization
-- MapReduce implementation
-- Multiple ML model comparison
-- Interactive sentiment prediction
 
-## Models
-- Logistic Regression
-- Linear SVM
-- Naive Bayes
-- Random Forest
-- Gradient Boosting
+* Data cleaning and normalization
+* HTML and URL removal
+* Contraction expansion
+* Lemmatization
+* Custom negation handling
+* TF-IDF vectorization with n-grams
+* MapReduce implementation for text analytics
+* Multiple machine learning models
+* Performance evaluation and visualization
+* Interactive sentiment prediction interface
 
-## Technologies
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Jupyter Notebook
+## Machine Learning Models
+
+* Logistic Regression
+* Linear Support Vector Machine (SVM)
+* Multinomial Naive Bayes
+* Random Forest
+* Gradient Boosting
+
+## Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Confusion Matrix
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* NLTK
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* ipywidgets
 
 ## Dataset
-IMDB Movie Reviews Dataset
 
-## Results
-The project compares different machine learning models and evaluates them using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix.
+IMDB Movie Reviews Dataset (50,000 reviews)
+
+## Project Outcomes
+
+The project compares multiple machine learning approaches for sentiment classification and demonstrates the impact of advanced NLP preprocessing techniques on model performance.
+
