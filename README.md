@@ -44,8 +44,6 @@ The system performs advanced text preprocessing, custom negation handling, featu
 * NLTK
 * Matplotlib
 * Seaborn
-* Jupyter Notebook
-* ipywidgets
 
 ## Dataset
 
